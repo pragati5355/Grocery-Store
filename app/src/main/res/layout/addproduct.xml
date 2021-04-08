@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bacground1"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:background="@color/white">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/cicleImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_launcher_background"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/productname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Product Name"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textColorHint="@android:color/darker_gray"
+        android:backgroundTint="@android:color/black"
+        android:layout_below="@id/cicleImageView"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <EditText
+        android:id="@+id/productprize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productname"
+        android:layout_marginTop="20dp"
+        android:hint="Product Price (Rs.)"
+        android:textSize="18sp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:backgroundTint="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/productbrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textColorHint="@android:color/darker_gray"
+        android:backgroundTint="@android:color/black"
+        android:hint="Enter Product Brand Name"
+        android:layout_below="@id/productprize"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/productdiscount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textColorHint="@android:color/darker_gray"
+        android:backgroundTint="@android:color/black"
+        android:hint="Enter Product Discount (%)"
+        android:layout_below="@id/productbrand"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+
+    <Button
+        android:id="@+id/addproduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Product"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:layout_below="@id/productdiscount"
+        android:layout_margin="50dp"
+        android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+</RelativeLayout>

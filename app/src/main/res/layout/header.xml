@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_margin="40dp"
+        android:src="@drawable/grocery1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pragati Provision Store"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="25dp"/>
+
+<!--    <view-->
+<!--         android:layout_margin="20dp"-->
+<!--         android:layout_width="match_parent"-->
+<!--         android:layout_height="3dp"-->
+<!--         android:background="@color/black"/>-->
+
+</LinearLayout>

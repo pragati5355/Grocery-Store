@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/bacground1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/round">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imagecircleview"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/bacground1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red Label Tea"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/imagecircleview"
+            android:layout_toRightOf="@id/imagecircleview"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/brand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red Label"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_toEndOf="@id/imagecircleview"
+            android:layout_below="@id/name"
+            android:layout_toRightOf="@id/imagecircleview"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/prize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100 rs"
+            android:textSize="15sp"
+            android:layout_toEndOf="@id/imagecircleview"
+            android:layout_below="@id/brand"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/imagecircleview" />
+
+        <TextView
+            android:id="@+id/discountname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Discount : "
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/teal_700"
+            android:layout_toEndOf="@id/prize"
+            android:layout_below="@id/prize"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/prize"/>
+
+        <TextView
+            android:id="@+id/discountno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15%"
+            android:textColor="@color/teal_700"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/discountname"
+            android:layout_toRightOf="@id/discountname"
+            android:layout_below="@id/prize"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

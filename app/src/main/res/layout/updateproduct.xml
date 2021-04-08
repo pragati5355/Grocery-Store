@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bacground1">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:background="@color/white">
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/editname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Product Name to Update"
+            android:textColor="@color/black"
+            android:textColorHint="@android:color/darker_gray"
+            android:backgroundTint="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+        <Button
+            android:id="@+id/getBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Data"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:layout_below="@id/editname"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/getimage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_below="@id/getBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            />
+
+        <EditText
+            android:id="@+id/getname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Name"
+            android:textColor="@color/black"
+            android:textColorHint="@android:color/darker_gray"
+            android:backgroundTint="@color/black"
+            android:layout_below="@id/getimage"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:id="@+id/getprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Price"
+            android:textColor="@color/black"
+            android:textColorHint="@android:color/darker_gray"
+            android:backgroundTint="@color/black"
+            android:layout_below="@id/getname"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+        <EditText
+            android:id="@+id/getbrand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Brand"
+            android:textColor="@color/black"
+            android:textColorHint="@android:color/darker_gray"
+            android:backgroundTint="@color/black"
+            android:layout_below="@id/getprice"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+        <EditText
+            android:id="@+id/getdiscount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Discount"
+            android:textColor="@color/black"
+            android:textColorHint="@android:color/darker_gray"
+            android:backgroundTint="@color/black"
+            android:layout_below="@id/getbrand"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+        <Button
+            android:id="@+id/updateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upadte details"
+            android:layout_below="@id/getdiscount"
+            android:backgroundTint="@android:color/darker_gray"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="60dp"/>
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</ScrollView>
